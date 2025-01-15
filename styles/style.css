@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(98, 98, 98);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: Rubik Mono One;
+  text-shadow: black 10px 10px;
+  letter-spacing: 1px;
+}
+
+p {
+  color: white;
+  border: 1px;
+  font-family: Permanent Marker;
+}
