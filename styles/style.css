@@ -11,7 +11,26 @@ h1 {
 }
 
 p {
-  color: white;
   border: 1px;
   font-family: Permanent Marker;
+  top: 25%;
+  bottom: 25%;
+  position: relative;
+  bottom: 375px;
+  width: 90%;
+  margin: auto;
+}
+
+button {
+  font-family: Rubik Mono One;
+  position: relative;
+}
+
+form {
+  font-family: Rubik Mono One;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
