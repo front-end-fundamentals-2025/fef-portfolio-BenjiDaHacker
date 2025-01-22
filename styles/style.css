@@ -30,10 +30,9 @@ button {
   top: -25px;
 }
 
-#relative{
-
-position: relative;
-top: 25px;
+#relative {
+  position: relative;
+  top: 25px;
 }
 
 form {
@@ -42,19 +41,24 @@ form {
   color: white;
 }
 
-input{
-
-width: 170px;
-
+input {
+  width: 170px;
 }
 
-input[name="Qtn"]{
-
-height: 200px;
-
+input[name="Qtn"] {
+  height: 200px;
 }
 
-img {
+#wb {
   width: 1000px;
   height: auto;
+}
+
+#projects {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  width: 100px;
+  gap: 20px;
+  justify-content: center;
 }
