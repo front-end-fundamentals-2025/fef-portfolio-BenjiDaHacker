@@ -27,7 +27,7 @@ p {
 button {
   font-family: Rubik Mono One;
   position: relative;
-  top: -25px;
+  top: 300px;
 }
 
 #relative {
@@ -54,11 +54,14 @@ input[name="Qtn"] {
   height: auto;
 }
 
+
 #projects {
   display: flex;
   flex-direction: row;
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   gap: 20px;
-  justify-content: center;
+  justify-content: left;
+  margin-left: 25%;
+  margin-top: -35%;
 }
