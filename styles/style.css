@@ -1,14 +1,17 @@
 body {
-  background-color: rgb(98, 98, 98);
+  background: radial-gradient(#8f8f88, #474744);
   text-align: center;
+  margin: 0;
+  background-repeat: no-repeat;
 }
 
 h1 {
   color: white;
-  text-align: center;
+  text-align: left;
   font-family: Rubik Mono One;
   text-shadow: black 10px 10px;
   letter-spacing: 1px;
+  padding-left: 1em;
 }
 
 p {
@@ -24,10 +27,41 @@ p {
   text-align: left;
 }
 
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 20em;
+  margin: auto;
+}
+
+.nav1 {
+  align-items: left;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+  transition: color 500ms, ease;
+  text-shadow: black 2px 2px;
+  font-family: Permanent Marker;
+}
+
+.nav a:hover {
+  color: red;
+}
+
 button {
   font-family: Rubik Mono One;
   position: relative;
   top: 300px;
+}
+
+footer {
+  background-color: black;
+  height: 7em;
+  color: grey;
+  font-family: Permanent Marker;
 }
 
 #relative {
@@ -54,13 +88,13 @@ input[name="Qtn"] {
   height: auto;
 }
 
-#projects {
+.projects {
   display: flex;
   flex-direction: row;
-  height: 150px;
-  width: 150px;
   gap: 20px;
   justify-content: left;
-  margin-left: 25%;
-  margin-top: -35%;
+}
+
+.imgc {
+  width: 10%;
 }
