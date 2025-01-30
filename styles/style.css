@@ -15,14 +15,14 @@ h1 {
 }
 
 p {
-  border: 1px;
+  border: 1em;
   font-family: Permanent Marker;
   font-size: 72;
   top: 25%;
   bottom: 25%;
   position: relative;
-  bottom: 550px;
-  width: 800px;
+  bottom: 35em;
+  width: 50em;
   margin: auto;
   text-align: left;
 }
@@ -97,4 +97,28 @@ input[name="Qtn"] {
 
 .imgc {
   width: 10%;
+}
+
+@media screen and (max-width: 500px) {
+  #wb {
+    width: 500px;
+  }
+
+  p {
+    border: 1em;
+    font-family: Permanent Marker;
+    font-size: 90%;
+    top: 25%;
+    bottom: 25%;
+    position: relative;
+    bottom: 19em;
+    width: 25em;
+    margin: auto;
+    text-align: left;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+  }
 }
