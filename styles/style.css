@@ -37,7 +37,6 @@ p {
 .nav1 {
   align-items: left;
 }
-
 .nav a {
   text-decoration: none;
   font-size: 24px;
@@ -111,7 +110,7 @@ input[name="Qtn"] {
     top: 25%;
     bottom: 25%;
     position: relative;
-    bottom: 19em;
+    bottom: 19.5em;
     width: 25em;
     margin: auto;
     text-align: left;
@@ -120,5 +119,7 @@ input[name="Qtn"] {
   .nav {
     display: flex;
     align-items: center;
+    gap: 10em;
+    margin: auto;
   }
 }
