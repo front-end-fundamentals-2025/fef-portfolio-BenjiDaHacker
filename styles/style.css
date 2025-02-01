@@ -159,6 +159,19 @@ height: 14em;
 
 }
 
+.boxtext a{
+
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+  transition: color 500ms, ease;
+  font-family: Permanent Marker;
+
+}
+
+.boxtext a:hover {
+  color: red;
+}
 
 
 @media screen and (max-width: 500px) {
