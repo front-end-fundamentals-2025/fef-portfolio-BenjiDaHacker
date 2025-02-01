@@ -37,7 +37,7 @@ p {
 .nav1 {
   align-items: left;
 }
-.nav a {
+.nav1 a {
   text-decoration: none;
   font-size: 24px;
   color: white;
@@ -46,7 +46,7 @@ p {
   font-family: Permanent Marker;
 }
 
-.nav a:hover {
+.nav1 a:hover {
   color: red;
 }
 
@@ -89,14 +89,81 @@ input[name="Qtn"] {
 
 .projects {
   display: flex;
-  flex-direction: row;
+  flex-direction: wrap;
   gap: 20px;
-  justify-content: left;
+  justify-content: center;
 }
 
-.imgc {
-  width: 10%;
+.container{
+
+  display: flex;
+  flex-direction:wrap;
+  justify-content: center;
+  gap: 1%;
+
 }
+
+.box{
+
+  width: 300px;
+  height: 300px;
+  background: #ffe5cc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 5px 10px black;
+  font-family: Permanent Marker;
+  margin-top: 5%;
+  
+}
+
+#box1{
+display: block;
+  
+}
+
+#box2{
+display: block;
+background: #ffcccc;
+
+
+}
+
+#box3{
+display: block;
+background: #e5ffcc;
+
+}
+
+#box4{
+background: white;
+
+}
+
+#box5{
+background: #ccffff;
+
+}
+
+#Nokia{
+
+scale: 0.60;
+
+}
+
+#Broschure{
+
+scale: 0.75;
+box-shadow: 5px 5px 10px black;
+
+}
+
+img{
+
+width: 70%;
+
+}
+
 
 @media screen and (max-width: 500px) {
   #wb {
@@ -118,8 +185,17 @@ input[name="Qtn"] {
 
   .nav {
     display: flex;
-    align-items: center;
     gap: 10em;
     margin: auto;
+    font-size: 50%;
   }
+
+  .nav1 {
+    display: flex;
+    gap: 3em;
+    scale: 75%;
+    margin: 0;
+  }
+
+
 }
