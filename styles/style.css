@@ -159,6 +159,18 @@ height: 14em;
 
 }
 
+.filler1{
+
+height: 20em;
+
+}
+
+.filler2{
+
+height: 15em;
+
+}
+
 .boxtext a{
 
   text-decoration: none;
@@ -171,6 +183,21 @@ height: 14em;
 
 .boxtext a:hover {
   color: red;
+}
+
+.hero {
+
+
+
+}
+
+h2{
+
+  color: white;
+  text-shadow: 10px 7px black;
+  font-family: Rubik Mono One;
+  font-style: italic;
+
 }
 
 
