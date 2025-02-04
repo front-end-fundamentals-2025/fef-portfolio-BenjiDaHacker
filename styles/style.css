@@ -88,97 +88,81 @@ input[name="Qtn"] {
 }
 
 .projects {
-  display: flex;
-  flex-direction: wrap;
+  display: grid;
+  grid: wrap;
   gap: 20px;
   justify-content: center;
 }
 
-.container{
-
-  display: flex;
-  flex-direction: row;
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, 1fr);
   justify-content: center;
   gap: 1%;
   font-size: 1.5em;
-
 }
 
-.box{
+.box {
   width: 300px;
   height: 275px;
   background: #ffcccc;
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: center;
   box-shadow: 5px 5px 10px black;
   font-family: Permanent Marker;
   margin-top: 5%;
-  
 }
 
-#box1{
-display: block;
+#box1 {
+  display: block;
 }
 
-#box2{
-display: block;
-background: #ffe5cc;
-
-
+#box2 {
+  display: block;
+  background: #ffe5cc;
 }
 
-#box3{
-display: block;
-background: #e5ffcc;
-
+#box3 {
+  display: block;
+  background: #e5ffcc;
 }
 
-#box4{
-display: block;
-background: #ccffff;
-
+#box4 {
+  display: block;
+  background: #ccffff;
 }
 
-#box5{
-display: block;
-background: white;
+#box5 {
+  display: block;
+  background: white;
 }
 
-.box img{
-
-width: 70%;
-height: auto;
-max-height: 75%;
-object-fit: contain;
-
+.box img {
+  width: 70%;
+  height: auto;
+  max-height: 75%;
+  object-fit: contain;
 }
-.filler{
-
-height: 14em;
-
+.filler {
+  height: 14em;
 }
 
-.filler1{
-
-height: 20em;
-
+.filler1 {
+  height: 20em;
 }
 
-.filler2{
-
-height: 15em;
-
+.filler2 {
+  height: 15em;
 }
 
-.boxtext a{
-
+.boxtext a {
   text-decoration: none;
   font-size: 24px;
   color: black;
   transition: color 500ms, ease;
   font-family: Permanent Marker;
-
 }
 
 .boxtext a:hover {
@@ -186,26 +170,18 @@ height: 15em;
 }
 
 .hero {
-
-
-
 }
 
-h2{
-
+h2 {
   color: white;
   text-shadow: 10px 7px black;
   font-family: Rubik Mono One;
   font-style: italic;
-
 }
 
-h3{
-
-font-family: Permanent Marker;
-
+h3 {
+  font-family: "Courier New", Courier, monospace;
 }
-
 
 @media screen and (max-width: 500px) {
   #wb {
@@ -239,16 +215,10 @@ font-family: Permanent Marker;
     margin: 0;
   }
 
-  .box{
-
-    
+  .box {
   }
 
-  video{
-
+  video {
     width: 100%;
-
   }
-
-
 }
