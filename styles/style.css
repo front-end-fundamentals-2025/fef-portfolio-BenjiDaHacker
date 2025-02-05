@@ -169,9 +169,6 @@ input[name="Qtn"] {
   color: red;
 }
 
-.hero {
-}
-
 h2 {
   color: white;
   text-shadow: 10px 7px black;
@@ -183,7 +180,22 @@ h3 {
   font-family: "Courier New", Courier, monospace;
 }
 
-@media screen and (max-width: 500px) {
+/* https://css-shape.com/star/ */
+
+.star {
+  width: 5%;
+  aspect-ratio: 1;
+  background: #f8ca00;
+  clip-path: polygon(
+    50% 0,
+    calc(50% * (1 + sin(0.4turn))) calc(50% * (1 - cos(0.4turn))),
+    calc(50% * (1 - sin(0.2turn))) calc(50% * (1 - cos(0.2turn))),
+    calc(50% * (1 + sin(0.2turn))) calc(50% * (1 - cos(0.2turn))),
+    calc(50% * (1 - sin(0.4turn))) calc(50% * (1 - cos(0.4turn)))
+  );
+}
+
+@media screen and (max-width: 800px) {
   #wb {
     width: 500px;
   }
@@ -215,10 +227,31 @@ h3 {
     margin: 0;
   }
 
-  .box {
-  }
-
   video {
     width: 100%;
   }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(1, 1fr);
+    justify-content: center;
+    gap: 1%;
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(1, 1fr);
+    justify-content: center;
+    gap: 1%;
+    font-size: 1.5em;
+  }
+}
+
+@keyframes starmove {
 }
