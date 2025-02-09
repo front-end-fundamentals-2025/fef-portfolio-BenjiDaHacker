@@ -3,6 +3,7 @@ body {
   text-align: center;
   margin: 0;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 h1 {
@@ -193,6 +194,12 @@ h3 {
     calc(50% * (1 + sin(0.2turn))) calc(50% * (1 - cos(0.2turn))),
     calc(50% * (1 - sin(0.4turn))) calc(50% * (1 - cos(0.4turn)))
   );
+  position: absolute;
+  top: 35%;
+  right: 25%;
+  animation-name: starmove;
+  animation-duration: 2s;
+  animation: starmove 2s ease-out forwards;
 }
 
 @media screen and (max-width: 800px) {
@@ -242,7 +249,6 @@ h3 {
 }
 
 @media screen and (max-width: 600px) {
-
   .container {
     display: grid;
     grid-template-columns: repeat(1, auto);
@@ -254,4 +260,10 @@ h3 {
 }
 
 @keyframes starmove {
+  0% {
+    transform: translateX(100vw) rotate(0deg);
+  }
+  75% {
+    transform: translateX(0) rotate(360deg);
+  }
 }
