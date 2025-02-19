@@ -13,6 +13,8 @@ h1 {
   text-shadow: black 10px 10px;
   letter-spacing: 1px;
   padding-left: 1em;
+  animation-name: textflash;
+  animation: textflash 2s ease-in-out;
 }
 
 p {
@@ -265,5 +267,17 @@ h3 {
   }
   75% {
     transform: translateX(0) rotate(360deg);
+  }
+}
+
+@keyframes textflash {
+  0% {
+    color: #f8ca00;
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    color: #f8ca00;
   }
 }
