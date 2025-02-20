@@ -15,7 +15,7 @@ document.addEventListener("click", function (event) {
 
   setTimeout(() => {
     clickText.style.opacity = "0";
-    clickText.style.transform = "translateY(-10px)";
+    clickText.style.transform = "translateY(-25px)";
   }, 50);
 
   setTimeout(() => {
