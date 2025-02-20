@@ -1,13 +1,12 @@
 document.addEventListener("click", function (event) {
   const clickText = document.createElement("span");
-  clickText.textContent = "Click";
+  clickText.textContent = "Click!";
   clickText.style.position = "absolute";
   clickText.style.left = `${event.pageX}px`;
-  clickText.style.top = `${event.pageY - 20}px`;  
+  clickText.style.top = `${event.pageY - 20}px`;
   clickText.style.fontSize = "16px";
-  clickText.style.fontWeight = "bold";
   clickText.style.color = "#f8ca00";
-  clickText.style.fontFamily = "Rubik Mono One"
+  clickText.style.fontFamily = "Rubik Mono One";
   clickText.style.pointerEvents = "none";
   clickText.style.pointerEvents = "none";
   clickText.style.opacity = "1";
