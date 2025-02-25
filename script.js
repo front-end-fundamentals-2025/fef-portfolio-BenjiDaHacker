@@ -8,7 +8,6 @@ document.addEventListener("click", function (event) {
   clickText.style.color = "#f8ca00";
   clickText.style.fontFamily = "Rubik Mono One";
   clickText.style.pointerEvents = "none";
-  clickText.style.pointerEvents = "none";
   clickText.style.opacity = "1";
   clickText.style.transition = "opacity 0.5s ease-out, transform 0.5s ease-out";
   document.body.appendChild(clickText);
